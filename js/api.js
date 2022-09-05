@@ -9,7 +9,7 @@ const apiFetching = async (city) => {
 document.getElementById("search-btn").addEventListener('click', (event) => {
     const searchValue = document.getElementById("cityId").value;
     apiFetching(searchValue);
-})
+});
 
 function processingData(data) {
     document.getElementById("weatherImg").removeAttribute("src")
